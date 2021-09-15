@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hammerplay Studios</title>
+
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="shortcut icon" type="image/png" href="icon/favicon.png">
+</head>
+<body>
+    <h2>Hammerplay Studios</h2>
+    <p>Maxamtech API Test</p>
+
+    <div id="mainContainer">
+        <div id="content">
+            <video id="contentElement">
+            <source src="https://storage.googleapis.com/gvabox/media/samples/stock.mp4"></source>
+            <source src="https://storage.googleapis.com/interactive-media-ads/media/android.webm">
+          </video>
+        </div>
+        <div id="adContainer"></div>
+        <div id="interstitial-ad">
+    </div>
+    <br><br>
+
+    <!-- Script Reference -->
+    <!-- IMA SDK -->
+    <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    
+
+    <!--Test Script-->
+    <script type="text/javascript" src="src/APITest.js"></script>
+
+    <!-- Buttons -->
+    <button id='button' type="button" onclick=submitScore()>Post Score API</button><br><br>
+    <button id='button' type="button" onclick=checkAndShowAds()>Show Ads</button><br><br>
+    <button id='button' type="button" onclick=showInterstitialAd()>Show Interstitial Ad</button><br><br>
+</body>
+
+</html>
